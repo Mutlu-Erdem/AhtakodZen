@@ -107,6 +107,7 @@ $lightBlack: #282828;
 {
 	text-transform: none;
 	margin-top: 80px !important;
+	margin-bottom: 0px;
 }
 
 #home
@@ -183,6 +184,13 @@ hr
     border-width: 3px;
     opacity: 0.09;
     margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.myLine
+{
+    max-width: 150px;
+    // border-width: 30px;
     margin-bottom: 15px;
 }
 
