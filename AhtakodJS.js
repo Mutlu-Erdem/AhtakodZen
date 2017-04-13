@@ -30,7 +30,8 @@ setInterval(function() {
     }
 }, 250);
 
-function hasScrolled() {
+function hasScrolled()
+{
     var st = $(this).scrollTop();
     
     // Make sure they scroll more than delta

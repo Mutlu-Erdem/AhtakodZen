@@ -508,7 +508,6 @@ textarea
 	font-size: 18px;
 }
 
-
 .blue
 {
 	color: $mainGreen;
@@ -568,7 +567,8 @@ a.button:hover
 
 // Desktop only
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px)
+{
     .mobile {
         display: none;
     }
@@ -586,7 +586,8 @@ a.button:hover
 
 // Mobile only
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px)
+{
 	.featuresImg
 	{
 		display: none; 
